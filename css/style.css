@@ -3,10 +3,10 @@
 @import url('global.css');
 
 /* Blocks */
-@import url('_nav.css');
-@import url('_header.css');
-@import url('_projects.css');
-@import url('_footer.css');
+@import url('./modules/nav.css');
+@import url('./modules/header.css');
+@import url('./modules/projects.css');
+@import url('./modules/footer.css');
 
 /* Media */
 @import url('media.css');
