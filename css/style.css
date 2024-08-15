@@ -1,22 +1,19 @@
-@import url('reset-webcademy.css');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+@import url('reset-webcademy.css');
+@import url('global.css');
+
+/* Blocks */
+@import url('_nav.css');
+@import url('_header.css');
+@import url('_projects.css');
+@import url('_footer.css');
+
+/* Media */
+@import url('media.css');
 
 
-:root {
-  /* Fonts */
-  --font-family: "DM Sans", sans-serif;
-  --second-family: "Poppins", sans-serif;
 
-  /* Colors */
-  --color-accent: #5C62EC;
-  --color-dark: #171718;
-  --color-light: #fff;
-}
 
-html, body {
-  font-family: var(--font-family);
-}
 
-.nav {
-  background-color: var(--color-dark);
-}
+
+
