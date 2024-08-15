@@ -1,0 +1,22 @@
+@import url('reset-webcademy.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+:root {
+  /* Fonts */
+  --font-family: "DM Sans", sans-serif;
+  --second-family: "Poppins", sans-serif;
+
+  /* Colors */
+  --color-accent: #5C62EC;
+  --color-dark: #171718;
+  --color-light: #fff;
+}
+
+html, body {
+  font-family: var(--font-family);
+}
+
+.nav {
+  background-color: var(--color-dark);
+}
