@@ -1,6 +1,5 @@
-@import url('./social.css');
-
 .footer {
+  margin-top: auto;
   padding: 60px 0 50px;
   color: var(--color-light);
   background-color: var(--color-dark-bg);
