@@ -118,10 +118,6 @@ a {
 
 /* nav */
 .nav {
-  /* position: fixed;
-  left: 0;
-  right: 0; */
-
   padding: 20px 0;
   color: var(--color-light);
   background-color: var(--color-dark);
@@ -223,7 +219,7 @@ a {
   text-align: center;
   color: #fff;
   background-color: var(--color-dark-bg);
-  background-image: url('./../../images/header-bg.png');
+  background-image: url('./../images/header-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
