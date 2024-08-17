@@ -1,0 +1,67 @@
+@media (max-width: 620px) {
+  /* General */
+  /* title */
+  .title-1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .title-2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  /* section */
+  .section {
+    padding: 40px;
+  }
+
+  /* social */
+  .social {
+    column-gap: 20px;
+  }
+  .social__item {
+    width: 28px;
+  }
+
+  /* content-list */
+  .content-list {
+    row-gap: 20px;
+  }
+  .content-list__item {
+    font-size: 16px;
+  }
+
+  /* header */
+  .header {
+    min-height: unset;
+  }
+  .header__title {
+    font-size: 30px;
+  }
+  .header__title strong {
+    font-size: 40px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 40px 0 30px;
+  }
+  .footer__wrapper {
+    row-gap: 20px;
+  }
+
+  /* project */
+  .project__title {
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  /* project-details */
+  .project-details__desc {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+
+

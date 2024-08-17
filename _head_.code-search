@@ -1,0 +1,57 @@
+# Query: </head>
+# ContextLines: 1
+
+Результаты: 9 - Файлы 9
+
+contacts.html:
+  8    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  9: </head>
+  10  
+
+index.html:
+   9    <link rel="stylesheet" href="css/media.css">
+  10: </head>
+  11  
+
+project-page-1.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
+
+project-page-2.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
+
+project-page-3.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
+
+project-page-4.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
+
+project-page-5.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
+
+project-page-6.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
+
+skills.html:
+  7    <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/media.css">
+  8: </head>
+  9  <body>
