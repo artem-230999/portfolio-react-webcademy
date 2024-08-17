@@ -10,9 +10,21 @@
     margin-bottom: 10px;
   }
 
+  /* nav-row */
+  .nav-row .dark-mode-btn {
+    order: 0;
+  }
+  .nav-list {
+    margin: 0 auto;
+    column-gap: 20px;
+  }
+  .nav-list__link {
+    font-size: 18px;
+  }
+
   /* section */
   .section {
-    padding: 40px;
+    padding: 40px 0;
   }
 
   /* social */

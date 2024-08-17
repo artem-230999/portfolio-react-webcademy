@@ -1,4 +1,16 @@
-// const btnDarkMode = document.querySelector(".dark-mode-btn");
+const btnDarkMode = document.querySelector(".dark-mode-btn");
+
+// Включение ночного режима по кнопке
+btnDarkMode.onclick = function () {
+    btnDarkMode.classList.toggle("dark-mode-btn--active");
+    const isDark = document.body.classList.toggle("dark");
+
+    if (isDark) {
+        localStorage.setItem("darkMode", "dark");
+    } else {
+        localStorage.setItem("darkMode", "light");
+    }
+};
 
 // // 1. Проверка темной темы на уровне системных настроек
 // if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ) {
@@ -32,14 +44,3 @@
 // 		}
 //     });
 
-// // Включение ночного режима по кнопке
-// btnDarkMode.onclick = function () {
-//     btnDarkMode.classList.toggle("dark-mode-btn--active");
-//     const isDark = document.body.classList.toggle("dark");
-
-//     if (isDark) {
-//         localStorage.setItem("darkMode", "dark");
-//     } else {
-//         localStorage.setItem("darkMode", "light");
-//     }
-// };
